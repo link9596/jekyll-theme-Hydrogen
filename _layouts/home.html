@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div>
+
+  {{ content }}
+
+  <!--<h2>#</h2>
+  <span></span>-->
+
+  <div>&nbsp;</div>
+
+  <ul class="post-list">
+     {% for post in paginator.posts %}
+      <li>
+
+        {% assign date_format = site.hydrogen-blog.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+        </h2>
+
+        <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
+
+      </li>
+
+    {% endfor %}
+
+  </ul>
+
+</div>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a  class="cm-l" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><img src="/theme/left.svg" style="height:28px"></a>
+  {% else %}
+    <span class="cm-l"><img src="/theme/leftdis.svg" style="height:28px"></span>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a class="cm-r" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><img src="/theme/right.svg" style="height:28px"></a>
+  {% else %}
+    <span class="cm-r"><img src="/theme/rightdis.svg" style="height:28px"></span>
+  {% endif %}
+</div>
+
+<div class="cm-c">{{paginator.page}}/{{paginator.total_pages}}</div>
+
+{% endif %}

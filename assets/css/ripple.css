@@ -1,0 +1,118 @@
+.mdui-ripple {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/* Ripple */
+.mdui-ripple-wave {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, .1);
+  border-radius: 50%;
+  -webkit-transition-duration: 1400ms;
+          transition-duration: 1400ms;
+  -webkit-transform: translate3d(0px, 0px, 0) scale(0);
+          transform: translate3d(0px, 0px, 0) scale(0);
+}
+/* 有背景色的默认使用白色涟漪 */
+.mdui-ripple[class*="mdui-color-"] .mdui-ripple-wave {
+  background-color: rgba(255, 255, 255, .3);
+}
+/* 白色涟漪 */
+.mdui-ripple-white .mdui-ripple-wave {
+  background-color: rgba(255, 255, 255, .3) !important;
+}
+/* 黑色涟漪 */
+.mdui-ripple-black .mdui-ripple-wave {
+  background-color: rgba(0, 0, 0, .1) !important;
+}
+.mdui-ripple-wave-fill {
+  opacity: .35;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+.mdui-ripple-wave-out {
+  opacity: 0;
+  -webkit-transition-duration: 600ms;
+          transition-duration: 600ms;
+}
+/**
+ * =============================================================================
+ * ************   Ripple 颜色   ************
+ * =============================================================================
+ */
+.mdui-ripple-amber .mdui-ripple-wave {
+  background-color: rgba(255, 193, 7, .3) !important;
+}
+.mdui-ripple-blue .mdui-ripple-wave {
+  background-color: rgba(33, 150, 243, .3) !important;
+}
+.mdui-ripple-blue-grey .mdui-ripple-wave {
+  background-color: rgba(96, 125, 139, .3) !important;
+}
+.mdui-ripple-brown .mdui-ripple-wave {
+  background-color: rgba(121, 85, 72, .3) !important;
+}
+.mdui-ripple-cyan .mdui-ripple-wave {
+  background-color: rgba(0, 188, 212, .3) !important;
+}
+.mdui-ripple-deep-orange .mdui-ripple-wave {
+  background-color: rgba(255, 87, 34, .3) !important;
+}
+.mdui-ripple-deep-purple .mdui-ripple-wave {
+  background-color: rgba(103, 58, 183, .3) !important;
+}
+.mdui-ripple-green .mdui-ripple-wave {
+  background-color: rgba(76, 175, 80, .3) !important;
+}
+.mdui-ripple-grey .mdui-ripple-wave {
+  background-color: rgba(158, 158, 158, .3) !important;
+}
+.mdui-ripple-indigo .mdui-ripple-wave {
+  background-color: rgba(63, 81, 181, .3) !important;
+}
+.mdui-ripple-light-blue .mdui-ripple-wave {
+  background-color: rgba(3, 169, 244, .3) !important;
+}
+.mdui-ripple-light-green .mdui-ripple-wave {
+  background-color: rgba(139, 195, 74, .3) !important;
+}
+.mdui-ripple-lime .mdui-ripple-wave {
+  background-color: rgba(205, 220, 57, .3) !important;
+}
+.mdui-ripple-orange .mdui-ripple-wave {
+  background-color: rgba(255, 152, 0, .3) !important;
+}
+.mdui-ripple-pink .mdui-ripple-wave {
+  background-color: rgba(233, 30, 99, .3) !important;
+}
+.mdui-ripple-purple .mdui-ripple-wave {
+  background-color: rgba(156, 39, 176, .3) !important;
+}
+.mdui-ripple-red .mdui-ripple-wave {
+  background-color: rgba(244, 67, 54, .3) !important;
+}
+.mdui-ripple-teal .mdui-ripple-wave {
+  background-color: rgba(0, 150, 136, .3) !important;
+}
+.mdui-ripple-yellow .mdui-ripple-wave {
+  background-color: rgba(255, 235, 59, .3) !important;
+}
+/**
+ * =============================================================================
+ * ************   Ripple dark   ************
+ * =============================================================================
+ */
+.mdui-theme-layout-dark .mdui-ripple-wave {
+  background-color: rgba(255, 255, 255, .3);
+}

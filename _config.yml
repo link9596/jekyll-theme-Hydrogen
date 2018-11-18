@@ -1,0 +1,39 @@
+title: Link
+description: Just 4 Fun.
+keywords: blog,css,html,php
+show_downloads: false
+show_comment: false
+
+baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://atlinker.cn" # change this to the base hostname & protocol for your site
+bulidtime: #博客建立时的时间戳 可进入https://tool.lu/timestamp/将博客建立时的日期转换成时间戳
+           #The timestamp at the time of blog establishment can be entered at https://tool.lu/timestamp/to convert the date at the time of blog establishment into a timestamp.
+
+google_analytics:
+# hydrogen-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+hydrogen-blog:
+  date_format: "%b %-d, %Y"
+
+theme: # leave it empty
+
+#install emoji
+plugins:
+  - jemoji
+
+paginate: 8
+paginate_path: "page:num"
+
+
+# social
+author: "Link"
+image:
+twitter:
+  username:
+#  site:
+facebook:
+  #publisher: null
+  #profile_id: null
+  app_id: null
+  #authors: null
+#  admins:

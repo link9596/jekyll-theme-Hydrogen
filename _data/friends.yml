@@ -1,0 +1,14 @@
+- name: Link
+  image: https://atlinker.cn/avatar/avatar.png
+  url: https://atlinker.cn/
+  describe: Link's Blog
+
+- name: Daily
+  image: https://atlinker.cn/avatar/default.png
+  url: https：//linker.ml/daily/
+  describe: Daily
+
+# - name: Links Name
+#  image: http://example.com/img.png
+#  url: https://example.com
+#  describe: Write something...
