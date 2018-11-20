@@ -1,8 +1,70 @@
----
-layout: default
----
-<article>
-  <div>
+<!DOCTYPE HTML>
+ <head>
+   <link rel=stylesheet href="/assets/css/fade.css">
+   <meta http-equiv="Cache-control" content="no-cache">
+   <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+   <meta charset="utf-8">
+   <link rel="shortcut icon" type="image/x-icon" href="/avatar/favicon.png" media="screen"/>
+ </head>
+
+ <style>
+
+@-webkit-keyframes fade-in-down {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+     }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    }
+}
+
+.h1,.h2,.h3,.h4,.lead,body,h1,h2,h3,h4{
+  font-family:RobotoDraft,Roboto,"Helvetica Neue",Helvetica,"Segoe UI","Microsoft YaHei",arial,sans-serif;font-weight:300;
+}
+
+@media (min-width: 767px) {
+body{
+ padding-left:200px;
+ padding-right:200px;
+ }
+}
+
+ </style>
+
+ <script>
+
+ajax()
+  function ajax(option){
+    var xhr = null;
+    if(window.XMLHttpRequest){
+      xhr = new window.XMLHttpRequest();
+    }else{ // ie
+      xhr = new ActiveObject("Microsoft")
+    }
+    xhr.open("get","location.href");
+    xhr.send(null);
+    xhr.onreadystatechange = function(){
+      var time = null,
+          curDate = null;
+      if(xhr.readyState===2){
+        // Get time
+        time = xhr.getResponseHeader("Date");
+        console.log(xhr.getAllResponseHeaders())
+        curDate = new Date(time);
+        document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) - 1536768000 ) / 86400 )));
+      }
+    }
+  }
+
+
+</script>
+
+<title>Hydrogen 更新</title>
+<body>
+   <div class="fade">
+     <div>
   <span style="color:#78909C;font-size:18px">您当前使用的 Hydrogen 版本是：</span>
   <blockquote>
   <span id="update" style="color:#159957;font-size:25px">1.1</span><span style="color:#159957;font-size:25px">.0</span>
@@ -13,7 +75,9 @@ layout: default
   <br><span style="font-size:14px" id="cut"></span>
   <br><span style="font-size:14px" id="latest"></span>
   <script src="https://atlinker.cn/update/update.js"></script>
-    {{ content }}
-  </div>
+    </div>
+   </div>
+</body>
 
-</article>
+
+<script></script>
