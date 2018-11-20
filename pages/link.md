@@ -5,25 +5,6 @@ tagline: My friends.
 permalink: /links.html
 ---
 
-## #友链申请
-
-可以在下方留言板评论即可申请本站友链! quq~
-
-**格式**
-
-> 名称: Link
->
-> 链接: https://atlinker.cn
->
-> 头像: https://atlinker.cn/avatar/avatar.png
->
-> 描述: Just 4 Fun
-
-本站的友链将按**时间顺序**排列
-
-喜欢更接近日常一点的博客，欢迎各位博主添加友链! 
-
-(* /ω＼*)
 
 {% for f in site.data.friends %}
 <div class="link-chip">
