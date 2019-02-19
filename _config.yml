@@ -15,7 +15,7 @@ paginate: 8 #同时显示的最大文章数，超过自动分页
 paginate_path: "page:num"
 
 background: https://api.dujin.org/bing/1920.php
-theme_color: 009688 #546E7A
+theme_color: 546E7A
 
 google_analytics:
 # hydrogen-blog date format
