@@ -1,7 +1,7 @@
 title: Link #博客标题
 description: Just 4 Fun. #博客描述
 keywords: blog,css,html,php #博客关键字
-show_comment: false #是否开启评论
+show_comment: ture #是否开启评论
 
 #title hide and show
 hide: (つェ⊂)我藏好啦
