@@ -48,6 +48,7 @@
 > 必须确定已阅读[Valine](https://valine.js.org/quickstart.html)文档
 
 配置文件:
+
 `_data/social.yml` : 填写app id和key以及评论的相关信息
 
 `_includes/comments.html` : 评论设置
