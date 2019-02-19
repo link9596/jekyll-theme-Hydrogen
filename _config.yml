@@ -15,6 +15,9 @@ bulidtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/ti
 paginate: 8 #同时显示的最大文章数，超过自动分页
 paginate_path: "page:num"
 
+background: /theme/hydrogen-ss.png
+theme_color: 546E7A
+
 google_analytics:
 # hydrogen-blog date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
