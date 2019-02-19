@@ -71,15 +71,6 @@
     <section class="page-header">
       <h1 class="project-name">{{ page-title }}</h1>
       <h2 class="project-tagline">{{ page-tagline }}</h2>
-      {% if page.layout == 'home' and site.github.is_project_page %}
-
-        {% if site.show_downloads %}
-          <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-          <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-        {% endif %}
-      {% endif %}
-      <!-- 循环输出 -->
-
       {% if page.layout == 'post' %}
         <h2 class="project-date">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
