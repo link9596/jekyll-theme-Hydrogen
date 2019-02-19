@@ -27,6 +27,10 @@
 
 `paginate` : 主页中显示的最大文章数，超过设定的数值文章自动归入下一页
 
+`background` : 博客首页主题图片路径
+
+`theme_color` : 博客顶部栏颜色，填颜色代码**但不要带上#号**
+
 #### 关于主题的基本设置已经完毕~
 
 ---
@@ -45,11 +49,5 @@
 
 配置文件:
 `_data/social.yml` : 填写app id和key以及评论的相关信息
+
 `_includes/comments.html` : 评论设置
-
----
-
-## #博客首页图片
-
-在`_sass/hydrogen-blog.scss`的第104行将`background: url("/theme/hydrogen-ss.png")`中的路径修改即可
-
