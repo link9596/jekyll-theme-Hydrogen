@@ -12,6 +12,9 @@ url: "link9596.github.io" # change this to the base hostname & protocol for your
 bulidtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/timestamp/将博客建立时的日期转换成时间戳
            #The timestamp at the time of blog establishment can be entered at https://tool.lu/timestamp/to convert the date at the time of blog establishment into a timestamp.
 
+paginate: 8 #同时显示的最大文章数，超过自动分页
+paginate_path: "page:num"
+
 google_analytics:
 # hydrogen-blog date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -23,10 +26,6 @@ theme: # leave it empty
 #install emoji
 plugins:
   - jemoji
-
-paginate: 8 #同时显示的最大文章数，超过自动分页
-paginate_path: "page:num"
-
 
 # social
 author: "Link"
