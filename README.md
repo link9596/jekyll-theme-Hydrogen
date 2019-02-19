@@ -52,3 +52,5 @@
 `_data/social.yml` : 填写app id和key以及评论的相关信息
 
 `_includes/comments.html` : 评论设置
+
+确保配置无误后修改`_data/social.yml`中的`enable`值由`false`改为`ture`即可
