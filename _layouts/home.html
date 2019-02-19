@@ -3,14 +3,13 @@ layout: default
 ---
 
 <div>
-
+<div>{{ relative_url }}</div>
   {{ content }}
 
   <!--<h2>#</h2>
   <span></span>-->
 
   <div>&nbsp;</div>
-{{ relative_url }}
   <ul class="post-list">
      {% for post in paginator.posts %}
       <li>
