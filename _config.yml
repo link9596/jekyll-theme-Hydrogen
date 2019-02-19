@@ -4,6 +4,10 @@ keywords: blog,css,html,php
 show_downloads: false
 show_comment: false
 
+#title hide and show
+hide: (つェ⊂)我藏好啦
+show: ´∇｀ 呀被发现啦~ 
+
 baseurl: "/hydrogen" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "link9596.github.io" # change this to the base hostname & protocol for your site
 bulidtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/timestamp/将博客建立时的日期转换成时间戳
