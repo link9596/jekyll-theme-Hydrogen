@@ -14,7 +14,10 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
       {% endif %}</p>
   </header> -->
-
+<script>
+  document.getElementsByTagName("img").className="bbb";
+  </script>
+  
   <div itemprop="articleBody">
     {{ content }}
   </div>
@@ -37,9 +40,6 @@ layout: default
 
        e.parentNode.insertBefore(j, e);
    })(document, 'script');
-    
-    document.getElementsByTagName("img").className="bbb";
-    
   </script>
 <noscript> 为正常使用评论功能请激活JavaScript</noscript>
 </div>
