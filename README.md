@@ -19,7 +19,7 @@
 
 `baseurl` : 博客所在的目录文件夹，开头需带上`/`，如果为根目录请留空(建议将博客放置在根目录)
 
-`url` : 你的域名
+`url` : 你的域名，如`atlinker.cn`无需加`http/https://`
 
 `bulidtime` : 博客建立时的时间戳，填写后将自动计算博客建立时间并显示在页脚. [日期转时间戳](https://tool.lu/timestamp/)
 
