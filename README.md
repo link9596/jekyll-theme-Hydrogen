@@ -29,6 +29,9 @@
 
 `theme_color` : 博客顶部栏颜色，填颜色代码**但不要带上#号**
 
+`MathJax` : 是否开启MathJax
+
+
 ## #设置域名
 
 修改根目录下的CNAME文件为你的域名即可
@@ -42,6 +45,10 @@
 打开`_data`目录下的`friends.yml`文件，根据文件中模板新添代码即可
 
 ---
+
+## #文章置顶
+
+在文章Front Matter添加stickie: true即可
 
 ## #评论
 
