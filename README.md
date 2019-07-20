@@ -31,6 +31,7 @@
 
 `MathJax` : 是否开启MathJax
 
+`author` : 作者名
 
 ## #设置域名
 
