@@ -1,17 +1,42 @@
 ---
 layout: default
 ---
-
-<div>
-<div>{{ relative_url }}</div>
-  {{ content }}
-
-  <!--<h2>#</h2>
-  <span></span>-->
+	
+	  {{ content }}
+	
+	  <!--<h2>#</h2>
+	  <span></span>-->
 
   <div>&nbsp;</div>
+
   <ul class="post-list">
-     {% for post in paginator.posts %}
+    
+{% if paginator.page == 1 %}
+  {% for post in site.posts %}
+      {% if post.stickie != true %}
+        {% continue %}
+      {% endif %}
+    <li>
+
+        {% assign date_format = site.hydrogen-blog.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span> <span style="font-size:15px;background:#F48FB1;color:#fff;padding:4px 15px;border-radius:6px;-webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+          box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);">置顶</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+        </h2>
+
+        <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
+
+      </li>
+  {% endfor %}
+{% endif %}
+    
+  {% for post in paginator.posts %}
+    {% if post.stickie == true %}
+      {% continue %}
+    {% endif %}
+    
       <li>
 
         {% assign date_format = site.hydrogen-blog.date_format | default: "%b %-d, %Y" %}
