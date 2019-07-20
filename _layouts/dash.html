@@ -5,6 +5,17 @@ layout: default
    <div class="fade">
      <div>
   <span style="color:#78909C;font-size:18px">欢迎您，</span>
+        
+        {% for post in site.posts %}
+    {% assign year = post.date | date: '%Y' %}
+    {% assign nyear = post.next.date | date: '%Y' %}
+    {% if year != nyear %}
+## {{ post.date | date: '%Y' }}
+{:.archive-title}
+    {% endif %}
+* {{ post.date | date: '%m-%d' }} &raquo; [{{ post.title }}]({{ post.url }} "{{ post.title }}"){:.archive-item-link}
+{% endfor %}
+        
   <!--<blockquote>-->
   <span style="color:#159957;font-size:25px">&nbsp;!</span>
   <!--</blockquote>-->
