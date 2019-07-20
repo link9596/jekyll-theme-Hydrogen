@@ -1,0 +1,70 @@
+---
+	layout: default
+	---
+	
+	<div>
+	
+	  {{ content }}
+	
+</div>
+ 
+ <style>
+
+@-webkit-keyframes fade-in-down {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+     }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    }
+}
+
+.h1,.h2,.h3,.h4,.lead,body,h1,h2,h3,h4{
+  font-family:RobotoDraft,Roboto,"Helvetica Neue",Helvetica,"Segoe UI","Microsoft YaHei",arial,sans-serif;font-weight:300;
+}
+
+@media (min-width: 767px) {
+body{
+ padding-left:200px;
+ padding-right:200px;
+ }
+}
+
+ </style>
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a  class="cm-l" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><img src="/theme/left.svg" style="height:28px"></a>
+  {% else %}
+    <span class="cm-l"><img src="/theme/leftdis.svg" style="height:28px"></span>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a class="cm-r" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><img src="/theme/right.svg" style="height:28px"></a>
+  {% else %}
+    <span class="cm-r"><img src="/theme/rightdis.svg" style="height:28px"></span>
+  {% endif %}
+</div>
+
+<div class="cm-c">{{paginator.page}}/{{paginator.total_pages}}</div>
+
+{% endif %}
+<title>Dashboard</title>
+<body>
+   <div class="fade">
+     <div>
+  <span style="color:#78909C;font-size:18px">欢迎您，</span>
+  <!--<blockquote>-->
+  <span style="color:#159957;font-size:25px">&nbsp;!</span>
+  <!--</blockquote>-->
+  <br><span style="color:#78909C;font-size:20px">有{% paginator.total_posts %}篇文章A</blockquote>
+  <span id="new" style="color:#159957;font-size:25px"></span>
+  <blockquote>
+  <br><span style="font-size:14px" id="cut"></span>
+  <br><span style="font-size:14px" id="latest"></span>
+  <script src="https://atlinker.cn/update/update.js"></script>
+    </div>
+   </div>
+</body>
