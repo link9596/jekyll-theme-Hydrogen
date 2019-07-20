@@ -26,7 +26,7 @@ hydrogen-blog:
 theme: # leave it empty
 
 #MathJax switch
-MathJax: true
+MathJax: false
 
 #install emoji
 plugins:
