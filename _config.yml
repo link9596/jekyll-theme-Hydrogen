@@ -25,6 +25,9 @@ hydrogen-blog:
 
 theme: # leave it empty
 
+#MathJax switch
+MathJax: ture
+
 #install emoji
 plugins:
   - jemoji
