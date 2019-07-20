@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <!DOCTYPE HTML>
  <head>
    <link rel=stylesheet href="/assets/css/fade.css">
@@ -36,34 +32,6 @@ body{
 }
 
  </style>
-
- <script>
-
-ajax()
-  function ajax(option){
-    var xhr = null;
-    if(window.XMLHttpRequest){
-      xhr = new window.XMLHttpRequest();
-    }else{ // ie
-      xhr = new ActiveObject("Microsoft")
-    }
-    xhr.open("get","location.href");
-    xhr.send(null);
-    xhr.onreadystatechange = function(){
-      var time = null,
-          curDate = null;
-      if(xhr.readyState===2){
-        // Get time
-        time = xhr.getResponseHeader("Date");
-        console.log(xhr.getAllResponseHeaders())
-        curDate = new Date(time);
-        document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) - 1536768000 ) / 86400 )));
-      }
-    }
-  }
-
-
-</script>
 
 <title>Dashboard</title>
 <body>
