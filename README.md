@@ -51,6 +51,16 @@
 
 在文章Front Matter添加stickie: true即可
 
+如：
+
+```
+ ---
+ layout: post
+ title: Hi
+ stickie: true
+ ---
+```
+
 ## #评论
 
 #### #前提
