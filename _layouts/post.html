@@ -24,7 +24,7 @@ layout: default
 
     {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
 
-<hr/>
+{% if site.data.social.valine_comment.enable  == true %}<hr/>{% endif %}
 {% comment %}  
 <!-- LiveRe -->
 <div id="lv-container" data-id="city" data-uid="MTAyMC8zMjY0Mi85MjAz">
