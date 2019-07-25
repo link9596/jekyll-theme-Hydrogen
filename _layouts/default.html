@@ -186,7 +186,7 @@
       <script data-no-instant>InstantClick.init();</script>
       {% endif %}
   </body>
-  {% if post.layout == post %}
+  {% if post.layout != post %}
   {% if site.data.social.valine_comment.enable  == true %}
   <script src="/comment/av-min.js"></script>
   <script src="/comment/Valine.min.js"></script>
