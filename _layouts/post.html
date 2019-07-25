@@ -45,19 +45,6 @@ layout: default
 </div>
 <!-- end LiveRe -->
 {% endcomment %}
-  
-  {% if site.show_comment %}
-  123333
-  {% endif %}
-  
-  {% if site.data.social.valine_comment.enable  == true %}
-  <script src="/comment/av-min.js"></script>
-  <script src="/comment/Valine.min.js"></script>
-  <div id="comments"></div>
-  {% include comments.html %}
-  {% endif %}
-  {% include scripts.html %}
-
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
