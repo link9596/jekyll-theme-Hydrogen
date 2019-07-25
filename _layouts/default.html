@@ -186,4 +186,8 @@
       <script data-no-instant>InstantClick.init();</script>
       {% endif %}
   </body>
+  {% if site.data.social.valine_comment.enable  == true %}
+  {% include comments.html %}
+  {% endif %}
+  {% include scripts.html %}
 </html>
