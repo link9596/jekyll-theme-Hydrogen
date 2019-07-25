@@ -46,6 +46,16 @@ layout: default
 <!-- end LiveRe -->
 {% endcomment %}
 
+  
+  {% if site.data.social.valine_comment.enable  == true %}
+  <script src="/comment/av-min.js"></script>
+  <script src="/comment/Valine.min.js"></script>
+  <div id="comments"></div>
+  {% include comments.html %}
+  {% endif %}
+  {% include scripts.html %}
+
+  
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
