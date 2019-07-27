@@ -9,6 +9,8 @@
 
 # #快速开始
 
+![hydrogen](/theme/a-h.png)
+
 ## #准备
 
 打开主题根目录下的`_config.yml`
@@ -85,3 +87,5 @@
 ## #写在最后
 
 请花10分钟时间**认真**阅读文档，如还有疑难之处，请提[issues](https://github.com/link9596/hydrogen/issues/new)，我会尽力帮忙
+
+![hydrogen](/theme/author.png)
