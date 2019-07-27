@@ -26,8 +26,6 @@ google_analytics:
 hydrogen-blog:
   date_format: "%b %-d, %Y"
 
-theme: # leave it empty
-
 #MathJax switch
 MathJax: false
 
@@ -35,7 +33,7 @@ MathJax: false
 plugins:
   - jemoji
 
-# social
+# social account
 image:
 twitter:
   username:
