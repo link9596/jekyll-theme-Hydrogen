@@ -3,7 +3,7 @@
 
 跟随她的脚步，开始你的博客之旅
 
-![hydrogen](/theme/logo-h.png)
+![hydrogen](/theme/logo-h.svg)
 
 ~~点点~~Star~~来一个好吗！秋梨膏！！~~
 
@@ -92,7 +92,7 @@
 
 最后，如果喜欢~请给项目点个star:wink:(点star的dalao都超级靓的)
 
-![hydrogen](/theme/author.png)
+![hydrogen](/theme/author.svg)
 
 ![](https://img.shields.io/github/repo-size/link9596/hydrogen?color=%23F8BBD0)
 ![](https://img.shields.io/github/release/link9596/hydrogen?color=%235C6BC0&label=Version)
