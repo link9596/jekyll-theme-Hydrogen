@@ -173,7 +173,7 @@
         time = xhr.getResponseHeader("Date");
         console.log(xhr.getAllResponseHeaders())
         curDate = new Date(time);
-        document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) - {{ site.bulidtime }} ) / 86400 )));
+        document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) - {{ site.buildtime }} ) / 86400 )));
         {% if page.sitetime == 'display' %}
         document.getElementById("sitetime2").innerHTML = (parseInt((((curDate.getTime() / 1000) - {{ site.buildtime }} ) / 86400 )));
         {% endif %}
