@@ -35,12 +35,12 @@
 
 `theme_color` : 博客顶部栏颜色，填颜色代码**但不要带上#号**
 
-`MathJax` : 是否开启MathJax
+`MathJax` : 是否开启MathJax(布尔值)
 
 `author` : 作者名
 
 > 开发者选项
->> `PJAX` : PJAX无刷新加载
+>> `PJAX` : PJAX无刷新加载(布尔值)
 
 ## #设置域名
 
