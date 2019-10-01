@@ -3,6 +3,8 @@
 
 跟随她的脚步，开始你的博客之旅
 
+语言：简体中文 | [English](README-en.md)
+
 ![hydrogen](/theme/logo-h.svg)
 
 ~~点点~~Star~~来一个好吗！秋梨膏！！~~
