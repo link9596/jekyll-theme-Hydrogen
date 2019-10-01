@@ -12,7 +12,7 @@ Language: English ([Chinese]) (README.md)
 
 
 
-[hydrogen] (/theme/logo-h.svg)
+![hydrogen] (/theme/logo-h.svg)
 
 
 
@@ -24,7 +24,7 @@ Language: English ([Chinese]) (README.md)
 
 
 
-[hydrogen] (/theme/a-h.png)
+![hydrogen] (/theme/a-h.png)
 
 
 
@@ -190,10 +190,10 @@ Finally, if you like it, please give me a star:wink: (thank you!!.
 
 
 
-[hydrogen] (/ theme / author. svg)
+![hydrogen] (/ theme / author. svg)
 
 
 
-[] (https://img.shields.io/github/repo-size/link9596/hydrogen?Color=%23F8BBD0)
+![] (https://img.shields.io/github/repo-size/link9596/hydrogen?Color=%23F8BBD0)
 
-[] (https://img.shields.io/github/release/link 9596/hydrogen?Color=% 235C6BC0&label=Version)
+![] (https://img.shields.io/github/release/link9596/hydrogen?Color=%235C6BC0&label=Version)
