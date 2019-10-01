@@ -8,11 +8,11 @@ Follow her footsteps and start your blog journey
 
 
 
-Language: English ([Chinese]) (README.md)
+Language: English | [Chinese](README.md)
 
 
 
-![hydrogen] (/theme/logo-h.svg)
+![hydrogen](/theme/logo-h.svg)
 
 
 
@@ -24,7 +24,7 @@ Language: English ([Chinese]) (README.md)
 
 
 
-![hydrogen] (/theme/a-h.png)
+![hydrogen](/theme/a-h.png)
 
 
 
@@ -131,7 +131,6 @@ Such as:
 
 
 ` ` ` `
-
 ---
 
 Layout: post
@@ -141,9 +140,7 @@ Title: Hi
 Stickie: true
 
 ---
-
 ` ` ` `
-
 
 
 Comment on the comment
@@ -160,19 +157,11 @@ On the premise of "the"
 
 Configuration file:
 
+`Data / social. YML`: Fill in app ID and key and comment information
 
+`include / comments. HTML`: comment settings
 
-` Data / social. YML `: Fill in app ID and key and comment information
-
-
-
-` include / comments. HTML `: comment settings
-
-
-
-After making sure the configuration is correct, change the value of "enable" in "U data / social. YML" from "false" to "true"
-
-
+After making sure the configuration is correct, change the value of "enable" in "data/social.YML" from "false" to "true"
 
 ### Write at the end
 
@@ -190,10 +179,9 @@ Finally, if you like it, please give me a star:wink: (thank you!!.
 
 
 
-![hydrogen] (/ theme / author. svg)
+![hydrogen](/theme/author. svg)
 
 
+![](https://img.shields.io/github/repo-size/link9596/hydrogen?Color=%23F8BBD0)
 
-![] (https://img.shields.io/github/repo-size/link9596/hydrogen?Color=%23F8BBD0)
-
-![] (https://img.shields.io/github/release/link9596/hydrogen?Color=%235C6BC0&label=Version)
+![](https://img.shields.io/github/release/link9596/hydrogen?Color=%235C6BC0&label=Version)
