@@ -95,6 +95,8 @@ If there are any difficulties in using Bug, please also raise [issues](https://g
 
 Finally, if you like it, please give me a star:wink: (thank you!!.
 
+> Thank google for providing translation.
+
 ![hydrogen](/theme/author.svg)
 
 ![](https://img.shields.io/github/repo-size/link9596/hydrogen?color=%23F8BBD0)
