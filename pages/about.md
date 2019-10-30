@@ -18,4 +18,4 @@ Github: [yanggenjie](https://github.com/yanggenjie)
 
 ## 其它
 欢迎关注微信公众号：
-<a href="https://sm.ms/image/xsctQelUCKEM4yN" target="_blank"><img src="https://i.loli.net/2019/10/31/xsctQelUCKEM4yN.jpg" ></a>
+<a target="_blank"><img src="https://i.loli.net/2019/10/31/xsctQelUCKEM4yN.jpg" ></a>
