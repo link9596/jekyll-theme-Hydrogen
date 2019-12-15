@@ -27,7 +27,7 @@ hydrogen-blog:
   date_format: "%b %-d, %Y"
 
 #MathJax switch
-MathJax: true
+MathJax: false
 
 #install emoji
 plugins:
