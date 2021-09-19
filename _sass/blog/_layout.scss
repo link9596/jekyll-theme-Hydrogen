@@ -92,16 +92,24 @@
 
     input ~ .trigger {
       clear: both;
-      display: none;
+      transition: 0.5s;
+      opacity: 0;
+      visibility: hidden;
+     -webkit-transform: translateX(50px);
+      transform: translateX(50px);
       margin-top: 47px;
       background-color: #FFFFFF;
-      border-radius: 0px 0px 18px 18px;
- -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
-      box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+      border-radius: 0px;
+      -webkit-box-shadow: 0 3px 5px -1px rgba(0,0,0,0.2),0 5px 8px 0 rgba(0,0,0,0.14),0 1px 14px 0 rgba(0,0,0,0.12);
+      box-shadow: 0 3px 5px -1px rgba(0,0,0,0.2),0 5px 8px 0 rgba(0,0,0,0.14),0 1px 14px 0 rgba(0,0,0,0.12);
     }
 
     input:checked ~ .trigger {
-      display: block;
+      opacity: 1;
+      visibility: visible;
+     -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+      height:auto;
       padding-bottom: 5px;
     }
 
@@ -115,6 +123,7 @@
 
       &:last-child {
         margin-bottom: 10px;
+        margin-right: 20px
       }
       margin-right: 10px;
       margin-left: 10px;
@@ -209,7 +218,7 @@
       -ms-user-select: none;
           user-select: none;
   background-color: #e0e0e0;
-  border-radius: 50px 16px 16px 50px;
+  border-radius: 50px;
   -webkit-transition: box-shadow .25s cubic-bezier(.4, 0, .2, 1);
           transition: box-shadow .25s cubic-bezier(.4, 0, .2, 1);
 
