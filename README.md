@@ -88,7 +88,7 @@
 
 `_includes/comments.html` : 评论设置
 
-确保配置无误后修改`_data/social.yml`中的`enable`值由`false`改为`ture`即可
+确保配置无误后修改`_data/social.yml`中的`enable`值由`false`改为`true`即可
 
 ## #写在最后
 
