@@ -48,9 +48,11 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
+
+.line a{text-decoration: none;position:relative;cursor:pointer;color:#009688;display:inline-block;Z-index:1}.line a:before{content:"";position:absolute;width:0;right:0;bottom:0;height:2px;background:#90CAF9;-webkit-transition:width .3s ease;transition:width .3s ease}.line a:hover:before{width:100%;left:0;right:auto}
 
 .btn {
   display: inline-block;
