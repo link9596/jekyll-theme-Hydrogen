@@ -169,9 +169,16 @@
     }
   }
       </script>
+      <script src='/assets/js/core.js'></script>
       {% if site.PJAX %}
       <script src = '/assets/js/instantclick.min.js' data-no-instant></script>
-      <script data-no-instant>InstantClick.init();</script>
+      <script data-no-instant>InstantClick.on('change', function (isInitialLoad) {
+          document.getElementById('fold').style.height='0px';//初始化
+            if (isInitialLoad === false) {
+                //instantClick回调函数
+            }
+        });
+          InstantClick.init();</script>
       {% endif %}
   </body>
 </html>
