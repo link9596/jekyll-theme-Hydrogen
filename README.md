@@ -90,7 +90,7 @@
 
 确保配置无误后修改`_data/social.yml`中的`enable`值由`false`改为`true`即可
 
-因Valine的兼容性可能会与Pjax功能冲突！
+因Valine的兼容性可能会与Pjax功能冲突！如开启评论，建议关闭Pjax功能
 
 ## #写在最后
 
