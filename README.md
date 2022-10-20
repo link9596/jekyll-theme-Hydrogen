@@ -90,6 +90,8 @@
 
 确保配置无误后修改`_data/social.yml`中的`enable`值由`false`改为`true`即可
 
+因Valine的兼容性可能会与Pjax功能冲突！
+
 ## #写在最后
 
 请花10分钟时间**认真**阅读文档，如还有疑难之处，请提[issues](https://github.com/link9596/hydrogen/issues/new)，我会尽力帮忙
