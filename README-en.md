@@ -25,7 +25,7 @@ Modify the following options as required:
 
 `keywords` : blog keywords (SEO related)
 
-`baseurl` : The directory folder where the blog is located should start with `/`. If it is the root directory, please leave it blank. (It is recommended that the blog be placed in the root directory)
+`baseurl` : The directory folder where the blog is located should start with `/`. If it is the root directory, please leave it blank. (It is recommended that the blog be placed in the root directory,Don't make a mistake! Resource files such as style sheets cannot be loaded)
 
 `url` : Your domain name, such as `atlinker.cn`, does not need to add `http/https://`
 
@@ -86,6 +86,8 @@ Configuration file:
 `_includes/comments.html` : comment settings
 
 After making sure the configuration is correct, change the value of "enable" in `data/social.YML` from `false` to `true`
+
+Valine's compatibility may conflict with the Pjax function! If comments are enabled, it is recommended to disable the Pjax function
 
 ## #Write at the end
 
