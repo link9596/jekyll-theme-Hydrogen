@@ -2,12 +2,13 @@
   image: https://atlinker.cn/avatar/avatar.png
   url: https://atlinker.cn/
   describe: Link's Blog
-  skin: https://atlinker.cn/avatar/avatar.png
+  skin: /theme/skin/skin1.png
 
 - name: Daily
   image: https://atlinker.cn/avatar/default.png
   url: https：//linker.ml/daily/
-  describe: Daily
+  describe: Daily Article.
+  skin: /theme/skin/skin3.png
 
 # - name: Links Name
 #  image: http://example.com/img.png
