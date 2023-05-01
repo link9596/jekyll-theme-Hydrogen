@@ -8,7 +8,7 @@ hide: (つェ⊂)我藏好啦
 show: ´∇｀ 呀被发现啦~ 
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "hydrogen.atlinker.cn" # change this to the base hostname & protocol for your site
+url: "https://hydrogen.atlinker.cn" # change this to the base hostname & protocol for your site
 buildtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/timestamp/将博客建立时的日期转换成时间戳
            #The timestamp at the time of blog establishment can be entered at https://tool.lu/timestamp/to convert the date at the time of blog establishment into a timestamp.
 
