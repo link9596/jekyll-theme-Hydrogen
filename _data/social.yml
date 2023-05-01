@@ -1,6 +1,6 @@
 valine_comment:
   enable: true
-  leancloud_appid: 1M1DUHf0B5dZUCDxZL1wvX9T-MdYXbMMI
-  leancloud_appkey: 3ARBi1OlJbnCi2mqYDbeCfnB
+  leancloud_appid: 输入你的Leancloud ID
+  leancloud_appkey: 输入你的Leancliud appkey
   placeholder: 说点什么...
-  serverURLs: https://1m1duhf0.api.lncldglobal.com
+  serverURLs: 自定义Leancloud接口地址
