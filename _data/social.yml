@@ -3,3 +3,4 @@ valine_comment:
   leancloud_appid: 1M1DUHf0B5dZUCDxZL1wvX9T-MdYXbMMI
   leancloud_appkey: 3ARBi1OlJbnCi2mqYDbeCfnB
   placeholder: 说点什么...
+  serverURLs: https://1m1duhf0.api.lncldglobal.com
