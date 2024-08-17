@@ -7,12 +7,7 @@ for (var i = 0; i < codeblocks.length; i++) {
 currentCode = codeblocks[i];
 currentCode.style = "position: relative;";
 var copy = document.createElement("div");
-copy.className = "ripple";
-copy.style = "width:46px;float:left;position: sticky;left: 0px;\
-top: 4px;background-color: white;padding:2px 8px 1px 8px;\
-margin-top: 5px;border-radius: 4px;cursor: pointer;\
-z-index: 1;\
-box-shadow: 0 2px 4px rgba(0,0,0,0.05), 0 2px 4px rgba(0,0,0,0.05);-webkit-transition: all .4s, -webkit-transform .4s ease;transition: all .4s, transform .4s ease;";
+copy.className = "copybtn ripple";
 copy.innerHTML = "复制";
 currentCode.appendChild(copy);
 //让所有 "复制"按钮 全部隐藏
