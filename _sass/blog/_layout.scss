@@ -177,6 +177,24 @@
  margin: -15px 0px 25px;
 }
 
+/*代码复制按钮*/
+.copybtn{
+width:46px;
+float:left;
+position: sticky;
+left: 0px;
+top: 4px;
+background-color: white;
+padding:2px 8px 1px 8px;
+margin-top: 5px;
+border-radius: 4px;
+cursor: pointer;
+ z-index: 1;
+box-shadow: 0 2px 4px rgba(0,0,0,0.05), 0 2px 4px rgba(0,0,0,0.05);
+-webkit-transition: all .4s, -webkit-transform .4s ease;
+transition: all .4s, transform .4s ease;
+}
+
 .cm-c{
   text-align: center;
   display:block;
