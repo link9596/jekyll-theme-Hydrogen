@@ -42,6 +42,29 @@ body {
   color: $body-text-color;
 }
 
+@media (prefers-color-scheme: dark){
+body{background-color:#121212}
+html{scrollbar-color: #2a333c #121212}
+hr{background:#1c1c1c !important}
+blockquote{border-left: 0.3rem solid #2a333c !important}
+.site-footer{border-top:solid 1px #121212 !important}
+.link-chip{background-color:#1b1e1f}
+.link-chip-title{color:#bababa}
+.vinput{border-bottom: 1px dashed #2c2c2c !important}
+.vh{border-bottom: 1px dashed #2c2c2c !important}
+.vquote{border-left: 1px dashed #2c2c2c !important}
+.vbtn{background:#212121 !important}
+.main-content pre{border:solid 0px !important;border-radius: 0 !important;background:#1b1e21!important}
+.main-content code{background:#1b1e21 !important}
+.copybtn{background:#151515 !important}
+
+@media screen and (max-width:38rem){
+.trigger{
+background:#151515 !important
+  }
+ }
+}
+
 a {
   color: $body-link-color;
   text-decoration: none;
