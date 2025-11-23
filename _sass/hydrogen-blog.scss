@@ -26,11 +26,16 @@
   -webkit-tap-highlight-color:transparent
 }
 
-
 @font-face
 {
     font-family: mdFont;
-    src: url(https://cdn.bootcss.com/mdui/0.4.0/fonts/roboto/Roboto-Regular.woff);
+    src: url('/assets/css/PlusJakartaSans-Medium.ttf');
+}
+
+@font-face
+{
+    font-family: txtbold;
+    src: url('/assets/css/PlusJakartaSans-Bold.ttf');
 }
 
 body {
