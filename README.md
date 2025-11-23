@@ -41,7 +41,7 @@
 
 `background` : 博客首页主题图片路径
 
-`theme_color` : 博客顶部栏颜色，填颜色代码**但不要带上#号**
+`theme_color` : 博客顶部栏颜色，填rgba颜色代码**不支持带#号的HEX值哦**
 
 `MathJax` : 是否开启MathJax(布尔值)
 
