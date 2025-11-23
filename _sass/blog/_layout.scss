@@ -5,9 +5,10 @@
 .site-header {
   border-bottom: 0px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-  /*background-color: #546E7A;/*#EC407A粉,#3F51B5紫*/
+  /*background-color: #FF5252;/*#EC407A粉,#546E7A蓝灰,#3F51B5紫*/
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 5px 8px 0 rgba(0, 0, 0, .14), 0 1px 14px 0 rgba(0, 0, 0, .12);
-
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
   // Positioning context for the mobile navigation icon
   position: fixed;
   width: 100%;
