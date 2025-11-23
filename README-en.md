@@ -37,7 +37,7 @@ Modify the following options as required:
 
 `background` : Topic Picture Path on Blog Home Page
 
-`theme_color` : Blog top column color, fill in the color code ** but don't enter # **
+`theme_color` : Blog top column color, fill in the rgba color code ** don't use HEX! **
 
 `MathJax` : Whether to open MathJax (Boolean value)
 
