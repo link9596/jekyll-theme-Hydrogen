@@ -269,12 +269,7 @@
     }
 
     InstantClick.on('change', function(isInitialLoad) {
-        // 折叠菜单（安全操作）
-        var foldEl = document.getElementById('fold');
-        if (foldEl) foldEl.style.height = '0px';
 
-        // 延迟初始化，确保 DOM 稳定
-        setTimeout(initValine, 50);
     });
 
     // 启动 instantClick
