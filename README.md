@@ -17,12 +17,6 @@
 
 # #快速开始
 
-如何在10分钟内建立你的个人博客并托管在Github Pages？
-
-<a class="github-button" href="https://github.com/link9596/jekyll-theme-Hydrogen/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork Hydrogen on GitHub">Fork</a>
-
-
-
 ## #准备
 
 打开主题根目录下的`_config.yml`
