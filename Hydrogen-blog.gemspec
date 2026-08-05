@@ -2,8 +2,8 @@
 
 Gem::Specification.new do |s|
   s.name          = "jekyll-theme-Hydrogen"
-  s.version       = "1.0"
-  s.license       = "CC0-1.0"
+  s.version       = "1.2"
+  s.license       = "MIT"
   s.authors       = ["Link"]
   s.email         = ["lk@atlinker.cn"]
   s.homepage      = "https://hydrogen.atlinker.cn"
