@@ -75,22 +75,6 @@ Such as:
  ---
 ```
 
-## #Comment
-
-#### #The premise
-
-> You must make sure that you have read [Valine](https://valine.js.org/quickstart.html)
-
-Configuration file:
-
-`_data/social.yml` :  Fill in app ID and key and comment information
-
-`_includes/comments.html` : comment settings
-
-After making sure the configuration is correct, change the value of "enable" in `data/social.YML` from `false` to `true`
-
-Valine's compatibility may conflict with the Pjax function! If comments are enabled, it is recommended to disable the Pjax function
-
 ## #Write at the end
 
 Please spend 10 minutes ** seriously ** reading the document. If you have any problems, please mention [issues](https://github.com/link9596/hydrogen/issues/new). I will try my best to help.
