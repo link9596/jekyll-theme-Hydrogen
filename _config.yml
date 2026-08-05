@@ -32,6 +32,7 @@ MathJax: false
 #install emoji
 plugins:
   - jemoji
+  - jekyll-paginate
 
 # social account
 image:
