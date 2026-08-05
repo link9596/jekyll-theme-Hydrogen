@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 Gem::Specification.new do |s|
-  s.name          = "Material_Theme_For_Jekyll"
+  s.name          = "jekyll-theme-Hydrogen"
   s.version       = "1.0"
   s.license       = "CC0-1.0"
   s.authors       = ["Link"]
