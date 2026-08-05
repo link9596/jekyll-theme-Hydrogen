@@ -76,22 +76,6 @@
  ---
 ```
 
-## #评论
-
-#### #前提
-
-> 必须确定已阅读[Valine](https://valine.js.org/quickstart.html)文档
-
-配置文件:
-
-`_data/social.yml` : 填写app id和key以及评论的相关信息
-
-`_includes/comments.html` : 评论设置
-
-确保配置无误后修改`_data/social.yml`中的`enable`值由`false`改为`true`即可
-
-因Valine的兼容性可能会与Pjax功能冲突！如开启评论，建议关闭Pjax功能
-
 ## #写在最后
 
 请花10分钟时间**认真**阅读文档，如还有疑难之处，请提[issues](https://github.com/link9596/hydrogen/issues/new)，我会尽力帮忙
