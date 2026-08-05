@@ -14,9 +14,6 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
       {% endif %}</p>
   </header> -->
-<script>
-  document.getElementsByTagName("img").className="bbb";
-  </script>
   
   <div itemprop="articleBody">
     {{ content }}
@@ -24,37 +21,5 @@ layout: default
 
     {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
 
-{% comment %}  
-<!-- LiveRe -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC8zMjY0Mi85MjAz">
-  <script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-  </script>
-<noscript> 为正常使用评论功能请激活JavaScript</noscript>
-</div>
-<!-- end LiveRe -->
-{% endcomment %}
-
   
-  {% if site.data.social.valine_comment.enable  == true %}
-  <script src="/comment/av-min.js"></script>
-  <script src="/comment/valine.js"></script>
-    <hr><div id="comments"></div>
-  {% include comments.html %}
-  {% endif %}
-  {% include scripts.html %}
-  
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
 </article>
