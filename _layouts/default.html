@@ -1,43 +1,34 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="theme-color" content="#{{ site.theme_color }}">
-
     {% if page.title %}
       {% assign page-title = page.title | escape %}
     {% else %}
       {% assign page-title = site.title | escape %}
     {% endif %}
-
     <title>{{ page-title }}</title>
-
     {% if site.gems contains "jekyll-seo-tag" %}
       <!-- seo-tag -->
     {% else %}
       {% comment %} {% include social-metatags.html %} {% endcomment %}
     {% endif %}
-
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-
     {% if site.gems contains "jekyll-feed" %}
       <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
     {% endif %}
     <meta name="keywords" itemprop="keywords" content="{{ site.keywords | escape }}">
     <link rel="shortcut icon" sizes="128x128" href="https://{{ site.url }}{{ site.baseurl }}/avatar/favicon.png">
     <meta name="robots" content="noarchive">
-
     {% include style.html %}
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/style.css">
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/fade.css">
   </head>
   <body>
-
     {% include site-header.html %}
-
     {% if page.layout == 'home' %}
       {% assign page-tagline = site.description | default: site.github.project_tagline | escape %}
     {% endif %}
@@ -48,7 +39,7 @@
       {% assign page-tagline = page.tagline | escape  %}
     {% endif %}
     {% if page.layout == 'tags' %}
-      {% assign page-tagline = page.tagline | escape  %}
+      {% assign page-tagline = page.tagline | escape  %}
     {% endif %}
     <script>
       var OriginTitile = document.title;
@@ -64,9 +55,7 @@
             document.title = OriginTitile;
           }, 2000);
         }});
-
     </script>
-
     <section class="page-header">
       <h1 class="project-name">{{ page-title }}</h1>
       <h2 class="project-tagline">{{ page-tagline }}</h2>
@@ -83,18 +72,15 @@
         </h2>
       {% endif %}
     </section>
-
     <section class="main-content fade">
-
       {{ content }}
-
       <footer class="site-footer">
-        <span class="site-footer-owner">Originate from <a href="https://atlinker.cn">link</a>.</span>
+        <span class="site-footer-owner">Hydrogen —— 轻盈、干净的 Jekyll 博客主题</span><br>
+        <span class="site-footer-credits"><a href="https://github.com/link9596/jekyll-theme-Hydrogen">GitHub 仓库</a> · 作者 <a href="https://atlinker.cn">link</a></span><br>
         <span class="site-footer-credits">This page is powered by<a href="https://www.netlify.com/"> Netlify</a>.</span><br>
         <span class="site-footer-credits" style="font-size:12px">Already <span id="sitetime"></span> days.</span>
       </footer>
     </section>
-
     {% if site.MathJax %}
     <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -106,7 +92,6 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 {% endif %}
-
       <script>
           ajax()
   function ajax(option){

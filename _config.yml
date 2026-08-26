@@ -1,39 +1,29 @@
-title: Hydrogen Demo #博客标题
-description: A beautiful Jekyll theme #博客描述
-keywords: blog,css,html,php #博客关键字
+title: Hydrogen #博客标题
+description: 轻盈、干净的 Jekyll 博客主题 #博客描述
+keywords: blog,jekyll,theme,css,html #博客关键字
 author: "Link"
-
 #title hide and show
 hide: (つェ⊂)我藏好啦
 show: ´∇｀ 呀被发现啦~ 
-
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if in root.
 url: "" # change this to the base hostname & protocol for your site
 buildtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/timestamp/将博客建立时的日期转换成时间戳
            #The timestamp at the time of blog establishment can be entered at https://tool.lu/timestamp/to convert the date at the time of blog establishment into a timestamp.
-
 PJAX: true #启用PJAX无刷新技术，以达到SPA单页应用体验
-
 paginate: 8 #同时显示的最大文章数，超过自动分页
 paginate_path: "page:num"
-
 background: https://api.dujin.org/bing/1920.php
-
 theme_color: "rgba(0,0,0, .5)"
-
 # hydrogen-blog date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 hydrogen-blog:
   date_format: "%b %-d, %Y"
-
 #MathJax switch
 MathJax: true
-
 #install emoji
 plugins:
   - jemoji
   - jekyll-paginate
-
 # social account
 image:
 twitter:
