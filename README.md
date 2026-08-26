@@ -1,4 +1,4 @@
-# Hydrogen 氢博客
+# Hydrogen For Jekyll
 
 > 轻盈、干净 · 跟随她的脚步，开始你的博客之旅
 
