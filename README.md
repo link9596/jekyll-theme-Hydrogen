@@ -12,7 +12,7 @@ Hydrogen 是一款基于 [Jekyll](https://jekyllrb.com) 的极简风格静态博
   <img src="/theme/logo-h.svg" alt="Hydrogen Logo" width="200" />
 </p>
 
-**[在线演示 Demo](https://atlinker.cn)** · 简体中文 | [English](README-en.md)
+**[在线演示 Demo](https://jekyll-theme-hydrogen.netlify.app/)** · 简体中文 | [English](README-en.md)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/link9596/jekyll-theme-Hydrogen?color=%23F8BBD0)
 ![GitHub release](https://img.shields.io/github/release/link9596/jekyll-theme-Hydrogen?color=%235C6BC0&label=Version)
